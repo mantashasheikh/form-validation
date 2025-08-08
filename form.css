@@ -1,0 +1,32 @@
+#big-div{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    padding-top:10px ;
+    background-color: rgb(166, 212, 214);
+
+}
+h1{
+    font-size: 55px;
+    margin-top:40px ;
+}
+#small-div{
+    height: 80vh;
+    width:600px ;
+    border: 1px solid black;
+    padding-top: 60px;
+    margin-left:550px ;
+    background-color: rgb(125, 178, 180);
+    
+}
+.vs-div{
+    height: 60px;
+    width:500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+}
+
