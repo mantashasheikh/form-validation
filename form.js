@@ -15,27 +15,27 @@ function formval(){
 
         if(Name==""){
           Errname.innerHTML="Please enter name*"
-          Errname.style.color="red"
+          Errname.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(Email==""){
           Erremail.innerHTML="Please enter an email*"
-          Erremail.style.color="red"
+          Erremail.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(!(Email.includes("@") && Email.includes(".com"))){
           Erremail.innerHTML="Please enter an valid email*"
-          Erremail.style.color="red"
+          Erremail.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(Num==""){
           Errnum.innerHTML="Please enter number*"
-          Errnum.style.color="red"
+          Errnum.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(Num.length!=10){
           Errnum.innerHTML="Please enter valid number*"
-          Errnum.style.color="red"
+          Errnum.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(isNaN(Num)){
@@ -45,12 +45,12 @@ function formval(){
         }
         else if(Pass==""){
           Errpass.innerHTML="Please enter a password*"
-          Errpass.style.color="red"
+          Errpass.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if(Pass.length!=8){
           Errpass.innerHTML="Please enter 8 characters*"
-          Errpass.style.color="red"
+          Errpass.style.color="rgba(204, 6, 6, 1)"
           return false
         }
         else if((Pass.match(/[0123456789]/)
